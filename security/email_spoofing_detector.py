@@ -1,4 +1,3 @@
-
 import re
 import dns.resolver
 import socket
