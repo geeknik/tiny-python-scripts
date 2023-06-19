@@ -1,4 +1,3 @@
-
 import os
 
 def configure_firewall():
@@ -24,5 +23,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-This script configures a basic firewall using iptables, allowing only loopback, established connections, and traffic on ports 22 (SSH), 80 (HTTP), and 443 (HTTPS). It then saves these rules so they persist after a reboot. Please note that this script needs to be run as root.
