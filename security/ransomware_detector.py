@@ -1,4 +1,3 @@
-
 import os
 import hashlib
 
@@ -33,5 +32,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-This script scans a directory for files that match known ransomware signatures. The signatures are loaded from a text file named `ransomware_signatures.txt`, where each line is a SHA-256 hash of a known ransomware file. The script walks through every file in the specified directory and its subdirectories, calculates the SHA-256 hash of each file, and checks if the hash is in the list of known ransomware signatures. If a match is found, the script prints a message indicating that ransomware has been detected.
