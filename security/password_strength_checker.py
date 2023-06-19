@@ -1,9 +1,8 @@
-
 import re
 
 def password_strength_checker(password):
     # Checking for the minimum length
-    if len(password) < 8:
+    if len(password) < 16:
         return "Password is too short. It should be at least 8 characters long."
 
     # Checking for uppercase letter
