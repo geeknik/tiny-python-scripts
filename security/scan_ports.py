@@ -1,4 +1,3 @@
-
 import socket
 
 def scan_ports(host):
