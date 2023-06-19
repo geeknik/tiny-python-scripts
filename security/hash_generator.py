@@ -1,4 +1,3 @@
-
 import hashlib
 
 def generate_hash(file_path, hash_type):
