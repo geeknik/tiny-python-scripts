@@ -1,4 +1,3 @@
-
 import OpenSSL
 import ssl, socket
 import argparse
