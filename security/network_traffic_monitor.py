@@ -1,4 +1,3 @@
-
 import socket
 import struct
 import textwrap
@@ -23,5 +22,3 @@ def get_mac_addr(bytes_addr):
 
 if __name__ == "__main__":
     main()
-```
-This script will monitor network traffic by capturing raw data packets and displaying their source and destination MAC addresses along with the protocol type.
