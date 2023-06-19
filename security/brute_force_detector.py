@@ -1,4 +1,3 @@
-
 import time
 from collections import Counter
 
@@ -19,5 +18,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-This script reads a log file, counts the number of requests from each IP address, and if the number of requests from a single IP exceeds a certain threshold (100 in this case), it flags that IP as a potential source of a brute force attack.
