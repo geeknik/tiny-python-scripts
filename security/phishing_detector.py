@@ -1,4 +1,3 @@
-
 import requests
 import validators
 from bs4 import BeautifulSoup
